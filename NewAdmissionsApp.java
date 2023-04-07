@@ -48,11 +48,13 @@ public class NewAdmissionsApp {
         students.add(student2);
 
         //displaying all details (without discount)
+        System.out.println("Details : ");
         for (Student student : students) {
             System.out.println(student.toString());
         }
 
         //generating receipts...
+        System.out.println("Generating receipts.....");
         for (Student student : students){
             int admissionFee = student.getAdmissionFee();
             int pastGrade = student.getPastGrade();
@@ -71,8 +73,6 @@ public class NewAdmissionsApp {
         }
 
 
-
     }
-
 
 }

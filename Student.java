@@ -51,10 +51,10 @@ public class Student {
     public String toString() {
         return "Student{" +
                 "studentName='" + studentName + '\'' +
+                ", admissionFee=" + admissionFee +
+                ", pastGrade=" + pastGrade +
                 ", deptName='" + deptName + '\'' +
                 ", courseName='" + courseName + '\'' +
-                ", pastGrade=" + pastGrade +
-                ", admissionFee=" + admissionFee +
                 '}';
     }
 }
